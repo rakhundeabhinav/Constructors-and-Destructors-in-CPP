@@ -23,7 +23,7 @@ public:
 };  
 
 int main() {
-    Date d1(12,8,2023);
+    Date d1(28,8,2025);
     Date d2(d1); 
     cout << "Original Date: ";
     d1.displayDate();
@@ -34,6 +34,7 @@ int main() {
 }
 
 /* OUTPUT:
-Original Date: 12/8/2023
-Copied Date: 12/8/2023
+Original Date: 28/8/2025
+Copied Date: 28/8/2025
+
 */
